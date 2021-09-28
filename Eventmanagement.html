@@ -1,0 +1,76 @@
+<html>
+    <head>
+        <title>EVENT MANAGEMENT</title>
+        <link href="style.css" rel="stylesheet" />
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+    </head>
+    <body>
+        <div id="main"> 
+            <div id="Heading"> 
+            <h1>Event Management</h1>
+            </div> 
+       
+
+        </div>
+        <div id="About">
+            <p>It a Event management website which helps the client to book and customise the event conduction package 
+                according to there convenience. This website provides the services like venue booking,decoration and make-up for bride (other members of the family if required with additional charges)
+                .As it is a basic version other upgraded facilities will be added in the future like catering,costume designing etc.
+            </p>
+        </div>
+        <div class="slideshow-container">
+
+            <div class="mySlides fade">
+              
+              <img src="Webimages/Venue.jpg" style="width:100%">
+              <div class="text">VENUE</div>
+            </div>
+            
+            <div class="mySlides fade">
+              
+              <img src="Webimages/Venue1.jpg" style="width:100%">
+              <div class="text">VENUE</div>
+            </div>
+            
+            <div class="mySlides fade">
+              
+              <img src="/Webimages/Decor.jpg" style="width:100%">
+              <div class="text">DECORATION</div>
+            </div>
+            <div class="mySlides fade">
+                
+                <img src="/Webimages/Decor1.jpg" style="width:100%">
+                <div class="text">DECORATION</div>
+              </div>
+              <div class="mySlides fade">
+                
+                <img src="/Webimages/Make-up.jpg" style="width:100%">
+                <div class="text">MAKE-UP</div>
+              </div>
+              <div class="mySlides fade">
+                
+                <img src="/Webimages/makeup.jpg" style="width:100%">
+                <div class="text">MAKE-UP</div>
+              </div>
+            </div>
+          
+<script>
+var slideIndex = 0;
+showSlides();
+
+function showSlides() {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";
+  }
+  slideIndex++;
+  if (slideIndex > slides.length) {slideIndex = 1}
+  slides[slideIndex-1].style.display = "block";
+  setTimeout(showSlides, 2000); // Change image every 2 seconds
+}
+</script>
+
+
+    </body>
+</html>

@@ -1,0 +1,83 @@
+*{
+    margin: 0%;
+}
+#main
+{
+    height: 70px;
+    background-color:rgb(186, 228, 238) ;
+}
+#Heading
+{ 
+    
+     
+     text-align: center;
+     line-height: 70px;
+     
+}
+
+
+#About
+{
+height: 70;
+background-color: rgb(209, 240, 241);
+text-align: center;
+}
+* {box-sizing:border-box}
+
+/* Slideshow container */
+.slideshow-container {
+    background-color: rgb(216, 216, 247);
+  max-width: 1000px;
+  position:relative;
+  margin: auto;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+
+
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+.Contact details
+{
+    color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: left;
+}
+
+
